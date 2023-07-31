@@ -62,24 +62,22 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.3);
             z-index: 1000;
         }
+
+        main img {
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
     <header>
         <h1>Premier Enterprise</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="chatbot.html">Our Chatbot</a>
-            <a href="testimonials.html">Testimonials</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
     </header>
     
-       <iframe id="chatbot" src="https://xconsole.cloud.uniphore.com/interact/index?accountId=market-dm&appkey=00a5a1dd-716b-40f5-a5ec-c1cb0b2b8107&vaName=TestAgent&Environment-Name=Dev&hidden=true"></iframe>
+    <iframe id="chatbot" src="https://xconsole.cloud.uniphore.com/interact/index?accountId=market-dm&appkey=00a5a1dd-716b-40f5-a5ec-c1cb0b2b8107&vaName=TestAgent&Environment-Name=Dev&hidden=true"></iframe>
     <button id="chatbot-button" onclick="toggleChatbot()">Chat</button>
     
-        <script>
+    <script>
         function toggleChatbot() {
             var chatbot = document.getElementById('chatbot');
             var button = document.getElementById('chatbot-button');
@@ -110,84 +108,9 @@
     </main>
     <footer>
         <nav>
-            <a href="terms.html">Terms of Service</a>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="careers.html">Careers</a>
-        </nav>
-        <!-- Contact info and social media links would go here. -->
-    </footer>
-</body>
-</html>
-
-On Mon, Jul 31, 2023 at 1:37 PM Vasanth Mohan <vmohan2211@gmail.com> wrote:
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Premier Enterprise</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav a {
-            color: #fff;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-        main {
-            text-align: center;
-            padding: 20px 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Premier Enterprise</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="chatbot.html">Our Chatbot</a>
-            <a href="testimonials.html">Testimonials</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
-    </header>
-    <main>
-        <img src="https://www.hubspot.com/hubfs/hero-images.jpg" alt="Hero Image">
-        <h2>Revolutionize Your Business with Premier Chatbot</h2>
-        <p>Improve customer service, enhance efficiency, and boost revenue with AI-powered solutions.</p>
-        <button>Meet Our Chatbot</button>
-
-        <h3>Why Choose Premier Chatbot?</h3>
-        <img src="benefits_image.jpg" alt="Chatbot Benefits">
-        <p>24/7 Customer Service</p>
-        <p>AI-Powered Efficiency</p>
-        <p>Easy Integration</p>
-        <button>Schedule a Demo</button>
-
-    </main>
-    <footer>
-        <nav>
-            <a href="terms.html">Terms of Service</a>
-            <a href="privacy.html">Privacy Policy</a>
-            <a href="careers.html">Careers</a>
+            <a href="">Terms of Service</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Careers</a>
         </nav>
         <!-- Contact info and social media links would go here. -->
     </footer>
